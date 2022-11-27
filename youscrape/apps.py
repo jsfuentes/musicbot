@@ -10,6 +10,6 @@ logger = logging.getLogger(__name__)
 class YouscrapeConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'youscrape'
-    print("THOMAS IS ALIVE")
-    def ready(self):
-        asyncio.run(start_discord_bot())
+    # print("THOMAS IS ALIVE")
+    # def ready(self):
+    #     asyncio.run(start_discord_bot())
