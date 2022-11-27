@@ -11,3 +11,7 @@ match args.command:
         print('pulling')
     case _:
         parser.error(f'{args.command!r} not yet implemented')
+
+from youscrape.apps import YouscrapeConfig 
+
+print(YouscrapeConfig)
